@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#009688), url(Images/Zalazak.png);
+    /* background: linear-gradient(rgba(0,0,0,0.5),#009687ad), url(Images/walk.jpg); */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -157,6 +157,7 @@ size:22px ;
     padding-top: 20px;
 }
 .content-text img{
+    padding-top: 22px;
     display: block;
     margin-left: auto;
     margin-right: auto;

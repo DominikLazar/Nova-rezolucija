@@ -1,0 +1,162 @@
+<html>
+    <head>
+<title>O autoru</title>
+<link rel="stylesheet" href="style_post_green.css">
+<link rel="SHORTCUT ICON" href="favicon.ico" type="/favicon.ico" />
+<link rel="ICON" href="favicon.ico" type="/favicon.ico" />
+    </head>
+    <body>
+        <section id="banner" style="background: linear-gradient(rgba(0,0,0,0.5),#009687), 
+         url(Images/sleeping.jpg);
+         background-size: cover;
+         background-position: center;
+         height: 100vh;">
+            <a href="../index.html">
+            <img src="Images/logo.png" class ="logo" title="Početna stranica">
+        </a>
+        <div class="banner-text">
+        <h1>O meni</h1>
+        <div class="subtitle-text">
+      <p>Tko sam ja?</p>
+ 
+    </div> 
+<!-- 
+    <div class="banner-btn">
+        <a href="index.html"> <span></span> Povratak</a>
+    </div>
+    -->
+    
+</div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="../index.html">NASLOVNA</a></li>
+                <li><a href="..index.html#feature">MISIJA</a></li>
+                <li><a href="../index.html#Iskustva">ISKUSTVA</a></li>   
+                <li><a href="../index.html#Razmisljanja">RAZMIŠLJANJA</a></li>  
+                <li><a href="../index.html#Film">FILMOGRAFIJA</a></li>        
+                <li><a href="#">O MENI</a></li>
+            </ul>
+        </nav>
+    <div id="menuBtn">
+        <img src="Images/menu.png" id="menu">
+    </div>
+    </div>
+
+
+<!-- content1 -->
+<section id="content1">
+
+    <div class="intro">
+        <div class="content-text">
+            <main>
+             <p>Ja sam samo lik koji se sjetio da bi mogao podijeliti svoje misli i fotografije na svojoj web stranici.</p>
+             <img src="Images/me.jpg" alt="">
+             <p>Moje ime je Dominik Lazar. Inženjer sam elektrotehnike, 25 godina, zaposlen (trenutno). Programiram stvari. 
+                 Fotografiram tu i tamo. 
+                 Volim planinariti, isprobavati nove stvari, pogledati dobar film, pročitati dobru knjigu. 
+                Želja mi je naučiti web dizajn, filozofiju, financije. Živim na jednoj tajnoj lokaciji pokraj
+            Varaždina. Tko me nađe dobije gemišt. </p>
+            
+             <p> <cite>Odrasle osobe vole brojeve. Kad
+                im pričate o nekom novom prijatelju, nikad vas
+                ne pitaju ništa o onome što je bitno. Nikad vam
+                ne kažu: »Kakav je zvuk njegovog glasa?
+                Koje igre voli? Skuplja li leptire?« Pitaju
+                vas: »Koliko mu je godina? Koliko ima
+                braće? Koliko je težak? Koliko zarađuje
+                njegov otac?« I tek tada će povjerovati da
+                su ga upoznali. Ako kažete odraslim osobama: »Vidio sam lijepu kuću od ružičaste
+                opeke, s geranijima na prozorima i golubovima na krovu...«, one neće moći zamisliti tu kuću. Treba im reći: »Vidio sam kuću od sto tisuća franaka.« Tada uzvikuju:
+                »Kako lijepo!« -  Antoine de Saint-Exupéry | Mali princ </cite> </p>
+            
+  
+            <p>O meni ćete, sve one bitne stvari najviše naučiti tokom čitanja, pa vas prepuštam.</p>
+        </main>
+        
+        </div> 
+        
+    </div>
+
+
+
+
+</section>
+
+
+<div class="homebutton">
+   
+<a href="../index.html">
+    <img src="Images/logo.png" title="Početna stranica" >
+</a>
+</div>
+
+
+<section id="Razmisljanja">
+    <div class="title-text">
+<h1>Možda će te zanimati i:</h1>
+    </div>
+    <pre></pre>
+    <br><br>
+
+    <div class="think-row">
+        <div class="think-col">
+            <div class="user">
+                <img src="IMAGES/MladostUDuhu.jpg" alt="">
+                <h4>SNAGA POZITIVE</h4>
+            </div>
+          <p> Razmišljaj pozitivno. Okruži se pozitivnim ljudima. Budi svijetlo u tami. Rasplasmaj taj plamen.
+               Nemoj se sramiti. Budi odlučan. Kreni hrabro i bez straha. Suoči se.</p>
+        </div>
+   
+        <div class="think-col">
+            <div class="user">
+                <img src="IMAGES/oblaci.jpg" alt="">
+                <h4>POSTAVLJAJ PRAVA PITANJA</h4>
+            </div>
+          <p> Ono si što razmišljaš. Razmisli o tome. Pa pripazi da razmišljaš samo ono što želiš biti. 
+              Kao hrana. Probaj jesti samo dobru, "zdravu hranu". Ova stranica je zamišljena da te napuni zdravim mislima.</p>
+        </div>
+       
+        <div class="think-col" >
+            <div class="user">
+               <a href="Razmatranja/Odluke.html"> <img src="Images/Zalazak.png" alt=""></a>
+              
+                <h4>BUDI ODLUČAN</h4>
+            </div>
+        <p> Odluke su te donijele do ovog mjesta gdje si danas. Potrudi se da donosiš prave odluke u pravo vrijeme i ne dopusti da drugi odlučuju za tebe. </p>
+        </div>
+
+    
+    </div>
+
+</section>
+
+
+
+
+    <p>&#169 Copyright by Dominik Lazar</p>
+
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right=="-250px"){
+            sideNav.style.right ="0";
+            menu.src = "Images/close.png";
+        }
+        else{
+            sideNav.style.right ="-250px";
+            menu.src = "Images/menu.png";
+        }
+    }
+</script>
+
+
+    </body>
+</html>
